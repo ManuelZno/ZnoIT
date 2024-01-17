@@ -1,0 +1,1 @@
+﻿New-ItemProperty -LiteralPath 'HKCU:\Software\Microsoft\Office\16.0\Outlook\Options\General' -Name 'HideNewOutlookToggle' -Value 1 -PropertyType DWord -Force -ea SilentlyContinue;
